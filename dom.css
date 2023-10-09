@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+}
+body{
+    background-image: url(bgc.jpg);
+    background-size: cover;
+    background-position-y: -800px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+h3{
+    padding: 1%;
+    color: white;
+    letter-spacing: 2px;
+}
+p{
+    color: white;
+    font-weight: 300;
+}
+.box{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+
+#boxheader{
+
+    display: block;
+    background-color: red;
+    padding-left: 39.39%;
+    padding-right: 39.39%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-bottom: 5px solid white;
+
+}
+#body{
+
+    position: relative;
+    background-color: white;
+    padding-left: 44.5%;
+    padding-right: 44.5%;
+    margin: auto;
+    padding-top: 35%;
+    padding-bottom: 10%;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+input[type="text"]{
+
+    position: absolute;
+    border: none;
+    top: 30%;
+    left: 10%;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 50%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.122);
+    border-radius: 5px;
+    
+}
+
+input[type="button"]{
+
+    position: relative;
+    left: -10vw;
+    border: none;
+    padding: 30%;
+    padding-left: 50%;
+    padding-right: 50%;
+    color: white;
+    background-color: red;
+
+}
